@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WorkCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>WorkCategory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>仕様の理解 (Understanding Document)</fullName>
+                <default>false</default>
+                <label>仕様の理解 (Understanding Document)</label>
+            </value>
+            <value>
+                <fullName>詳細設計書作成 （Detail document create)</fullName>
+                <default>false</default>
+                <label>詳細設計書作成 （Detail document create)</label>
+            </value>
+            <value>
+                <fullName>詳細設計書翻訳 (Document Translate)</fullName>
+                <default>false</default>
+                <label>詳細設計書翻訳 (Document Translate)</label>
+            </value>
+            <value>
+                <fullName>開発 (Source Coding)</fullName>
+                <default>false</default>
+                <label>開発 (Source Coding)</label>
+            </value>
+            <value>
+                <fullName>ソースレビュー (Source Review)</fullName>
+                <default>false</default>
+                <label>ソースレビュー (Source Review)</label>
+            </value>
+            <value>
+                <fullName>単体テスト仕様書作成 (Create TestCase)</fullName>
+                <default>false</default>
+                <label>単体テスト仕様書作成 (Create TestCase)</label>
+            </value>
+            <value>
+                <fullName>単体テスト仕様書レビュー (Testcase review)</fullName>
+                <default>false</default>
+                <label>単体テスト仕様書レビュー (Testcase review)</label>
+            </value>
+            <value>
+                <fullName>単体テスト仕様書翻訳 (TestCase Translate)</fullName>
+                <default>false</default>
+                <label>単体テスト仕様書翻訳 (TestCase Translate)</label>
+            </value>
+            <value>
+                <fullName>テストクラス作成 (Create TestClass)</fullName>
+                <default>false</default>
+                <label>テストクラス作成 (Create TestClass)</label>
+            </value>
+            <value>
+                <fullName>テストクラスレビュー (TestClass Review)</fullName>
+                <default>false</default>
+                <label>テストクラスレビュー (TestClass Review)</label>
+            </value>
+            <value>
+                <fullName>単体テスト実施 (UT Evidence)</fullName>
+                <default>false</default>
+                <label>単体テスト実施 (UT Evidence)</label>
+            </value>
+            <value>
+                <fullName>単体テスト結果レビュー (UT Evidence Review)</fullName>
+                <default>false</default>
+                <label>単体テスト結果レビュー (UT Evidence Review)</label>
+            </value>
+            <value>
+                <fullName>QA回答待ちetc (QA Waiting)</fullName>
+                <default>false</default>
+                <label>QA回答待ちetc (QA Waiting)</label>
+            </value>
+            <value>
+                <fullName>その他(Other)</fullName>
+                <default>false</default>
+                <label>その他(Other)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
